@@ -1,0 +1,138 @@
+body {
+    background-color: orange;
+    margin: 20px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#interface {
+    width: 1200px;
+    background-color: rgb(246, 223, 181);
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgbs(0, 0, 0, .5);
+    padding: 10px;
+}
+
+p {
+    font-family: Arial;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 40pt;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 15pt;
+    color: orange;
+    text-shadow: 2px 2px 2px black;
+    text-align: justify;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20pt;
+    text-align: center;
+}
+
+
+figure.foto-legenda img {
+    width: 50%;
+    height: 50%;
+}
+
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(247, 191, 87);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,.2); 
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(238, 177, 62)
+}
+
+.menu-container:hover .dropdown-content {
+    display: block;
+}
+
+.menu-container:hover .menu-button {
+    background-color: rgb(234, 205, 151);
+}
+
+section#corpo {
+    display: block;
+    width: 540px;
+    float: left;
+    border-right: 1px solid black;
+    padding-right: 25px;
+    border-top: 1px solid black;
+}
+
+article#noticias h2 {
+    font-size: 12pt;
+    color: black;
+    background-color: orange;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+aside#lateral {
+    display: block;
+    width: 634px;
+    float: right;
+    border-top: 1px solid black;
+}
+
+article#receitas h2 {
+    font-size: 12pt;
+    color: black;
+    background-color: orange;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid black;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+
+}
+
+footer#rodape p {
+    text-align: center;
+}
